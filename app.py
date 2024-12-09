@@ -14,7 +14,7 @@ st.markdown(
             <h1 style="font-size: 30px; color: white; margin-bottom: 5px;">Hacettepe Üniversitesi</h1>
             <h2 style="font-size: 25px; color: white; margin-bottom: 5px;">İstatistik Bölümü IST631 Kuramsal İstatistik</h2>
             <h3 style="font-size: 20px; color: white; margin-bottom: 5px;">Merkezi Limit Teoremi: Beta Dağılımı Dinamik Simülasyonu</h3>
-            <h4 style="font-size: 18px; color: white;">Ad Soyad</h4>
+            <h4 style="font-size: 18px; color: white;">Kemal Sözer</h4>
         </div>
     </div>
     """,
