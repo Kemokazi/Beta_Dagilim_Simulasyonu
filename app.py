@@ -4,7 +4,9 @@ import matplotlib.pyplot as plt
 from scipy.stats import beta, norm
 
 # Streamlit Başlığı
+st.title("Hacettepe Üniversitesi İstatistik Bölümü IST631 Kuramsal İstatistik")
 st.title("Merkezi Limit Teoremi: Beta Dağılımı Dinamik Simülasyonu")
+st.title("Kemal SÖZER")
 
 # Parametre Girişleri
 alpha = st.slider("Alpha (α) Parametresi", 0.5, 10.0, 2.0, 0.1)
