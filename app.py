@@ -11,10 +11,10 @@ st.image(
 
 st.markdown(
     """
-    <h1 style="text-align: center; font-size: 30px; color: darkblue;">Hacettepe Üniversitesi</h1>
-    <h2 style="text-align: center; font-size: 25px; color: darkblue;">İstatistik Bölümü IST631 Kuramsal İstatistik</h2>
-    <h3 style="text-align: center; font-size: 20px; color: black;">Merkezi Limit Teoremi: Beta Dağılımı Dinamik Simülasyonu</h3>
-    <h4 style="text-align: center; font-size: 18px; color: black;">Kemal Sözer</h4>
+    <h1 style="text-align: center; font-size: 30px; color: white;">Hacettepe Üniversitesi</h1>
+    <h2 style="text-align: center; font-size: 25px; color: white;">İstatistik Bölümü IST631 Kuramsal İstatistik</h2>
+    <h3 style="text-align: center; font-size: 20px; color: white;">Merkezi Limit Teoremi: Beta Dağılımı Dinamik Simülasyonu</h3>
+    <h4 style="text-align: center; font-size: 18px; color: white;">Kemal Sözer</h4>
     """,
     unsafe_allow_html=True,
 )
