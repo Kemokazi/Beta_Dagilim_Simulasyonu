@@ -3,21 +3,24 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import beta, norm
 
-# Hacettepe Üniversitesi logosunu yükleme (logonun URL'sini veya dosya yolunu değiştirin)
-st.image(
-    "https://kkm.hacettepe.edu.tr/wp-content/uploads/2018/07/cropped-logo-hacettepe.png",
-    width=100,
-)
-
+# HTML/CSS ile logo ve başlıkları yatay hizalama
 st.markdown(
     """
-    <h1 style="text-align: center; font-size: 30px; color: white;">Hacettepe Üniversitesi</h1>
-    <h2 style="text-align: center; font-size: 25px; color: white;">İstatistik Bölümü IST631 Kuramsal İstatistik</h2>
-    <h3 style="text-align: center; font-size: 20px; color: white;">Merkezi Limit Teoremi: Beta Dağılımı Dinamik Simülasyonu</h3>
-    <h4 style="text-align: center; font-size: 18px; color: white;">Kemal Sözer</h4>
+    <div style="display: flex; align-items: center;">
+        <div>
+            <img src="https://kkm.hacettepe.edu.tr/wp-content/uploads/2018/07/cropped-logo-hacettepe.png" width="100">
+        </div>
+        <div style="margin-left: 20px;">
+            <h1 style="font-size: 30px; color: white; margin-bottom: 5px;">Hacettepe Üniversitesi</h1>
+            <h2 style="font-size: 25px; color: white; margin-bottom: 5px;">İstatistik Bölümü IST631 Kuramsal İstatistik</h2>
+            <h3 style="font-size: 20px; color: white; margin-bottom: 5px;">Merkezi Limit Teoremi: Beta Dağılımı Dinamik Simülasyonu</h3>
+            <h4 style="font-size: 18px; color: white;">Ad Soyad</h4>
+        </div>
+    </div>
     """,
     unsafe_allow_html=True,
 )
+
 
 # Parametre Girişleri
 alpha = st.slider("Alpha (α) Parametresi", 0.5, 10.0, 2.0, 0.1)
