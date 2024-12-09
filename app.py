@@ -3,10 +3,21 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import beta, norm
 
-# Streamlit Başlığı
-st.title("Hacettepe Üniversitesi İstatistik Bölümü IST631 Kuramsal İstatistik")
-st.title("Merkezi Limit Teoremi: Beta Dağılımı Dinamik Simülasyonu")
-st.title("Kemal SÖZER")
+# Hacettepe Üniversitesi logosunu yükleme (logonun URL'sini veya dosya yolunu değiştirin)
+st.image(
+    "https://kkm.hacettepe.edu.tr/wp-content/uploads/2018/07/cropped-logo-hacettepe.png",
+    width=100,
+)
+
+st.markdown(
+    """
+    <h1 style="text-align: center; font-size: 30px; color: darkblue;">Hacettepe Üniversitesi</h1>
+    <h2 style="text-align: center; font-size: 25px; color: darkblue;">İstatistik Bölümü IST631 Kuramsal İstatistik</h2>
+    <h3 style="text-align: center; font-size: 20px; color: black;">Merkezi Limit Teoremi: Beta Dağılımı Dinamik Simülasyonu</h3>
+    <h4 style="text-align: center; font-size: 18px; color: black;">Kemal Sözer</h4>
+    """,
+    unsafe_allow_html=True,
+)
 
 # Parametre Girişleri
 alpha = st.slider("Alpha (α) Parametresi", 0.5, 10.0, 2.0, 0.1)
